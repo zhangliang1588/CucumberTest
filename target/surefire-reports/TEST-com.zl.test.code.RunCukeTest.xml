@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="com.zl.test.code.RunCukeTest" time="0.023" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.zl.test.code.RunCukeTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="java.vm.version" value="25.172-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\IdeaProjects\CucumberTest1"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\CucumberTest\CucumberTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\IdeaProjects\CucumberTest1"/>
+    <property name="user.dir" value="E:\CucumberTest\CucumberTest"/>
     <property name="java.runtime.version" value="1.8.0_172-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
@@ -62,10 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| old |" name="Then I test old" time="0.023"/>
+  <testcase classname="| old |" name="Then I test old" time="0.002"/>
   <testcase classname="| old |" name="Then I check true" time="0"/>
   <testcase classname="| old |" name="| old |" time="0"/>
-  <testcase classname="| new |" name="Then I test new" time="0"/>
-  <testcase classname="| new |" name="Then I check true" time="0"/>
-  <testcase classname="| new |" name="| new |" time="0"/>
 </testsuite>
