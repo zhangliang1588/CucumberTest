@@ -72,6 +72,12 @@
                 <configuration>
                     <forkMode>once</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+					<testFailureIgnore>
+                        true<!-- 因为要执行Cucumber -->
+                    </testFailureIgnore>
+                    <includes>
+                        <include>**/RunCukeTest.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
